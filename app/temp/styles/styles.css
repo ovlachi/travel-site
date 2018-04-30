@@ -450,10 +450,6 @@ template {
   display: none;
 }
 
-.large-hero {
-    position: relative;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;  
@@ -463,3 +459,18 @@ img {
      max-width: 100%;
      height: auto;
  }
+
+.large-hero {
+    position: relative;
+}
+
+.large-hero__text-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left:0;
+    width: 100%;
+    text-align: center;
+}
+
